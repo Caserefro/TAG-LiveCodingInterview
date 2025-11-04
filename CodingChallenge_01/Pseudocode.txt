@@ -1,0 +1,13 @@
+abstract Class Vehicle {
+
+}
+
+main() {
+    car = new Car("Toyota", "Corolla", 40, 5)
+    truck = new Truck("Volvo", "FH16", 80, 2)
+    moto = new Motorcycle("Yamaha", "R15", 30, true)
+
+    print(vehicle.getDescription() + " (" + (Car) + ") - Total Cost: $" + vehicle.calculateRentalCost(days))
+    print(vehicle.getDescription() + " (" + (Truck) + ") - Total Cost: $" + vehicle.calculateRentalCost(days))
+    print(vehicle.getDescription() + " (" + (Motorcycle) + ") - Total Cost: $" + vehicle.calculateRentalCost(days))
+}
